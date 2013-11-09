@@ -17,7 +17,7 @@ RUN apt-get install -y wget
 
 RUN mkdir /minecraft
 RUN mkdir /minecraft_data
-RUN wget -O /minecraft/minecraft.jar https://s3.amazonaws.com/Minecraft.Download/versions/1.6.4/minecraft_server.1.6.4.jar && chmod +x /minecraft/minecraft.jar
+RUN wget -O /minecraft/minecraft.jar https://s3.amazonaws.com/Minecraft.Download/versions/1.7.2/minecraft_server.1.7.2.jar && chmod +x /minecraft/minecraft.jar
 
 EXPOSE 25565
 
